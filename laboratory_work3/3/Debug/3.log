@@ -1,0 +1,31 @@
+﻿Построение начато 01.12.2020 19:13:10.
+     1>Проект "G:\3\laboratory_work3\3\3.vcxproj" в узле 2 (целевые объекты build).
+     1>PrepareForBuild:
+         Создание каталога "G:\3\laboratory_work3\Debug\".
+       InitializeBuildStatus:
+         Создание "Debug\3.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 3.cpp
+         3.cpp
+     1>g:\3\laboratory_work3\3\3.cpp(397): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>g:\3\laboratory_work3\3\3.cpp(393): warning C4101: del: неиспользованная локальная переменная
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\3.exe.embed.manifest.res" Debug\3_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\3\laboratory_work3\Debug\3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\3\laboratory_work3\Debug\3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\3\laboratory_work3\Debug\3.lib" /MACHINE:X86 Debug\3.exe.embed.manifest.res
+         Debug\3.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\3.exe.embed.manifest" /manifest Debug\3.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\3.exe.embed.manifest.res" Debug\3_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\3\laboratory_work3\Debug\3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\3\laboratory_work3\Debug\3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\3\laboratory_work3\Debug\3.lib" /MACHINE:X86 Debug\3.exe.embed.manifest.res
+         Debug\3.obj
+         3.vcxproj -> G:\3\laboratory_work3\Debug\3.exe
+       FinalizeBuildStatus:
+         Файл "Debug\3.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\3.lastbuildstate".
+     1>Построение проекта "G:\3\laboratory_work3\3\3.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:27.04
